@@ -1,0 +1,140 @@
+.con {
+    width: 100%;
+    height: 12.06rem;
+    position: relative;
+    padding-top: .1px;
+}
+.main {
+    width: 100%;
+    background: url(../img/mbg1.jpg) 0 -5rem no-repeat;
+    background-size: 100% auto;
+    position: relative;
+    overflow: hidden;
+}
+.menu {
+    width: .44rem;
+    height: .28rem;
+    display: block;
+    position: fixed;
+    left: .3rem;
+    top: .3rem;
+    z-index: 100;
+    background: url(../img/logo1.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.con .btn_box {
+    width: 4.34rem;
+    height: 2.82rem;
+    position: absolute;
+    left: 50%;
+    bottom: .75rem;
+    margin-left: -2.17rem;
+    background: url(../img/mid1.png) no-repeat;
+    background-size: 100%;
+}
+.con .btn_box .btn {
+    width: 2.94rem;
+    height: 1.09rem;
+    display: block;
+    position: absolute;
+}
+.con .btn_box .btn.btn1 {
+    left: -1.19rem;
+    top: 1rem;
+    background: url(../img/left1.png) no-repeat;
+    background-size: 100%;
+}
+
+.con .btn_box .btn.btn2 {
+    right: -1.31rem;
+    top: 1rem;
+    background: url(../img/right1.png) no-repeat;
+    background-size: 100%;
+}
+.section4 {
+    position: relative;
+    width: 100%;
+    padding-top: .44rem;
+    background: #424a55;
+    border-bottom-color: #666666;
+}
+.section4 {
+    box-sizing: border-box;
+}
+.section4 ul {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    padding: 0 .24rem;
+    margin-bottom: .56rem;
+}
+.section4 ul li {
+    border-color: #87939c;
+}
+.section4 ul li a {
+    display: -webkit-box;
+    height: 0.6rem;
+    line-height:0.6rem;
+}
+.section4 ul li a i {
+    display: block;
+    font-size: .4rem;
+    width: .6rem;
+    height: .6rem;
+    margin-right: .1rem;
+    line-height: .6rem;
+    box-sizing: border-box;
+    border: 1px solid #eaf1fa;
+    color: #eaf1fa;
+    text-align: center;
+}
+.section4 ul li a span {
+    font-size: .28rem;
+    display: block;
+    color: #eaf1fa;
+}
+.section4 .footer {
+    background: #202b35;
+    padding: .4rem .32rem;
+    min-height: .8rem;
+}
+.section4 .footer p {
+    font-size: .26rem;
+    line-height: .4rem;
+}
+.section4 p, .section4 a, .section4 h3 {
+    color: #ebeff4;
+}
+.btn_toTop {
+    border: 1px solid #424a55;
+}
+.btn_toTop {
+    width: 0.96rem;
+    height: 0.96rem;
+    display: block;
+    position: absolute;
+    bottom: .26rem;
+    right: .26rem;
+    margin-left: -.25rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    box-align: center;
+}
+.btn_toTop i {
+    width: .3rem;
+    height: .3rem;
+    border-left: .08rem solid #424a55;
+    border-top: .08rem solid #424a55;
+    border-bottom: 0;
+    border-right: 0;
+    display: block;
+    margin-top: .2rem;
+    transform: rotate(45deg);
+}

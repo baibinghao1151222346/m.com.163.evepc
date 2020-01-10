@@ -1,0 +1,180 @@
+html, body {
+    height: 100%;
+    width:300%;
+    background: hsl(0, 4%, 5%);
+    font-size: 345% !important;
+}
+ .content {
+    width: 7.5rem;
+    height: 12.03rem;
+    position: relative;
+    background: url(../img/index-bg.jpg) center top no-repeat;
+    background-size: 100% 100%;
+}
+.topbar {
+    width: 100%;
+    height: 1.11rem;
+    background: url(../img/top-bar_e817374.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    padding-left: .3rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.topbar .game_name {
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    color: #d5450c;
+}
+.topbar .game_name h2 img {
+    display: block;
+    width: auto;
+    height: .43rem;
+}
+
+
+
+
+
+
+ .content .btn-video {
+    display: block;
+    position: absolute;
+    top: 5.7rem;
+    left: 50%;
+    margin-left: -.75rem;
+    width: 1.42rem;
+    height: 1.25rem;
+    background: url(../img/btn-video.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.nav-box {
+    position: fixed;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 2;
+    width: 7.5rem;
+    height: 1.13rem;
+    bottom: 0;
+}
+.nav-box a {
+    float: left;
+    width: 1.5rem;
+    height: 1.13rem;
+}
+.nav-box a.nav1 {
+    background: url(../img/jq01.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.nav-box a.nav2 {
+    background: url(../img/sm02.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.nav-box a.nav3 {
+    background: url(../img/sy03.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.nav-box a.nav5 {
+    background: url(../img/gf04.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.nav-box a.navIndex {
+    background: url(../img/index.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+.section4 {
+    position: relative;
+    width: 100%;
+    padding-top: .44rem;
+    background: #424a55;
+    border-bottom-color: #666666;
+}
+.section4 {
+    box-sizing: border-box;
+}
+.section4 ul {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    padding: 0 .24rem;
+    margin-bottom: .56rem;
+}
+.section4 ul li {
+    border-color: #87939c;
+}
+.section4 ul li a {
+    display: -webkit-box;
+    height: 0.6rem;
+    line-height:0.6rem;
+}
+.section4 ul li a i {
+    display: block;
+    font-size: .4rem;
+    width: .6rem;
+    height: .6rem;
+    margin-right: .1rem;
+    line-height: .6rem;
+    box-sizing: border-box;
+    border: 1px solid #eaf1fa;
+    color: #eaf1fa;
+    text-align: center;
+}
+.section4 ul li a span {
+    font-size: .28rem;
+    display: block;
+    color: #eaf1fa;
+}
+.section4 .footer {
+    background: #202b35;
+    padding: .4rem .32rem;
+    min-height: .8rem;
+}
+.section4 .footer p {
+    font-size: .26rem;
+    line-height: .4rem;
+}
+.section4 p, .section4 a, .section4 h3 {
+    color: #ebeff4;
+}
+.btn_toTop {
+    border: 1px solid #424a55;
+}
+.btn_toTop {
+    width: 0.96rem;
+    height: 0.96rem;
+    display: block;
+    position: absolute;
+    bottom: .26rem;
+    right: .26rem;
+    margin-left: -.25rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    box-align: center;
+}
+.btn_toTop i {
+    width: .3rem;
+    height: .3rem;
+    border-left: .08rem solid #424a55;
+    border-top: .08rem solid #424a55;
+    border-bottom: 0;
+    border-right: 0;
+    display: block;
+    margin-top: .2rem;
+    transform: rotate(45deg);
+}
